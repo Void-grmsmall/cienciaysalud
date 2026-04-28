@@ -1,7 +1,6 @@
 "use client";
 
 import { MapPin, Phone, Clock, TestTube, CheckCircle } from "lucide-react";
-import SectionWave from "./SectionWave";
 
 export default function ContactFooter() {
   const advantages = [
@@ -13,11 +12,10 @@ export default function ContactFooter() {
   ];
 
   return (
-    <footer className="bg-slate-900 text-slate-300" id="contacto">
+    <footer className="bg-slate-900 text-slate-300 relative overflow-hidden" id="contacto">
       {/* Top Banner with Advantages */}
-      <div className="bg-[var(--color-medical-dark)] relative border-b border-white/10 pt-20 pb-10 overflow-hidden">
-        <SectionWave position="top" fillClass="fill-slate-50" />
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="bg-[var(--color-medical-dark)] relative z-10 border-b border-white/10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
             {advantages.map((adv, index) => (
               <div key={index} className="flex items-center gap-3">
@@ -67,7 +65,7 @@ export default function ContactFooter() {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold text-lg mb-1">Horarios de Atención</h4>
-                  <p>Lunes a Sábado: 7:00 AM - 7:00 PM</p>
+                  <p>Lunes a Sábado: 7:00 AM - 4:00 PM</p>
                   <p className="text-[var(--color-highlight)] text-sm font-semibold mt-1">Servicio a domicilio: 24/7</p>
                 </div>
               </div>
@@ -78,7 +76,7 @@ export default function ContactFooter() {
           <div className="h-[400px] w-full rounded-3xl overflow-hidden border border-white/10 shadow-2xl relative bg-slate-800">
             {/* Using a standard Google Maps embed for Rimac, Lima */}
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15610.150654719602!2d-77.039642!3d-12.024976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cf4e88e2ef81%3A0xe54c46f25dc7ed29!2sR%C3%ADmac%20District!5e0!3m2!1sen!2spe!4v1700000000000!5m2!1sen!2spe" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5!2d-77.0305716!3d-12.0246118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cf47281b2b4b%3A0x7aafa542b81cab1!2sC.%203%20801%2C%20R%C3%ADmac%2015094!5e0!3m2!1ses!2spe!4v1700000000000!5m2!1ses!2spe" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

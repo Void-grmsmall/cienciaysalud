@@ -89,18 +89,11 @@ export default function EducationSection() {
             className="lg:w-1/2 relative h-[500px] w-full rounded-3xl overflow-hidden shadow-2xl"
           >
             <Image
-              src="/images/lab-equipment.png"
+              src="/assets/equipamiento.png"
               alt="Equipamiento de laboratorio clínico"
               fill
-              className="object-cover"
+              className="object-contain"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-medical-dark)]/80 to-transparent" />
-            <div className="absolute bottom-0 left-0 p-8">
-              <div className="bg-white/20 backdrop-blur-md rounded-xl p-4 text-white border border-white/30 max-w-sm">
-                <p className="font-semibold text-lg">Tecnología de Precisión</p>
-                <p className="text-sm text-blue-100 mt-1">Utilizamos equipos de última generación para garantizar resultados exactos en tu perfil tiroideo y más de mil exámenes.</p>
-              </div>
-            </div>
           </motion.div>
 
         </div>

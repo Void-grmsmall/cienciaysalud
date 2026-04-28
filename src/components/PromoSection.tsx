@@ -178,7 +178,7 @@ export default function PromoSection() {
                          drop-shadow-xl"
             >
               <Image
-                src="/assets/gaseosa.png"
+                src="/assets/gaseosa1.png"
                 alt="Gaseosa"
                 width={176}
                 height={176}

@@ -91,7 +91,7 @@ export default function Hero() {
               precios cómodos y resultados confiables.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-12">
               <button
                 id="hero-whatsapp-btn"
                 onClick={openWhatsApp}
@@ -111,6 +111,7 @@ export default function Hero() {
                 <span>Ver perfiles</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
+
             </div>
           </div>
         </div>

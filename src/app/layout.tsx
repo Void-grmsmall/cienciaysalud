@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "CIENCIA Y SALUD - Laboratorio Clínico | Rímac, Lima",
   description:
     "Más de mil exámenes a precios cómodos. Recojo de muestras a domicilio 24/7. Resultados en 48 horas. Ubicados en Rímac, Lima. WhatsApp: 931906392.",
+  icons: {
+    icon: "/assets/Isotipo.png",
+  },
 };
 
 export default function RootLayout({

@@ -102,11 +102,7 @@ export default function ProfileCard({
         <button
           id={`book-${title.replace(/\s+/g, "-").toLowerCase()}`}
           onClick={handleBooking}
-          className={`w-full py-3.5 rounded-xl font-semibold transition-all duration-300 ${
-            highlight
-              ? "bg-[var(--color-medical)] hover:bg-[var(--color-medical-dark)] text-white shadow-md shadow-[var(--color-medical)]/30"
-              : "bg-slate-100 hover:bg-[var(--color-medical)] hover:text-white text-slate-800"
-          }`}
+          className="w-full py-3.5 rounded-xl font-semibold transition-all duration-300 bg-[var(--color-medical)] hover:bg-[var(--color-medical-dark)] text-white shadow-md shadow-[var(--color-medical)]/30"
         >
           Solicitar Perfil
         </button>
