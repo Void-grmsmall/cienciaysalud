@@ -89,7 +89,7 @@ export default function EducationSection() {
             className="lg:w-1/2 relative h-[500px] w-full rounded-3xl overflow-hidden shadow-2xl"
           >
             <Image
-              src="/assets/equipamiento.png"
+              src="/assets/Equipamiento.png"
               alt="Equipamiento de laboratorio clínico"
               fill
               className="object-contain"
